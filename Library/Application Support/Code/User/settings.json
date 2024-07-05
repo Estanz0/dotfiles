@@ -1,0 +1,50 @@
+{
+    "workbench.colorTheme": "Catppuccin Mocha",
+    "explorer.confirmDragAndDrop": false,
+    "azureFunctions.showPythonVenvWarning": false,
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "win-ca.inject": "append",
+    "explorer.confirmDelete": false,
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.formatOnSave": true,
+    "editor.stickyScroll.enabled": false,
+    "editor.lineNumbers": "relative",
+    "git.openRepositoryInParentFolders": "never",
+    "terminal.integrated.env.osx": {
+        "PATH": ""
+    },
+    "[python]": {
+        "editor.formatOnSave": true, // Format Python file code on save
+        "editor.codeActionsOnSave": {
+            "source.fixAll": "explicit", // On save, fix as many linting issues as possible
+            "source.organizeImports": "explicit" // On save, organize imports (needs "I" rule in Ruff configuration)
+        },
+        "editor.defaultFormatter": "charliermarsh.ruff" // Set Ruff as the default formatter
+    },
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before": ["J"],
+            "commands": ["editor.action.moveLinesDownAction"]
+        }, // moveLineDown
+        {
+            "before": ["K"],
+            "commands": ["editor.action.moveLinesUpAction"]
+        } // moveLineUp
+    ],
+    "github.copilot.editor.enableAutoCompletions": true,
+    "workbench.sideBar.location": "right",
+    "python.createEnvironment.trigger": "off",
+    "bicep.enableSurveys": false,
+    "github-actions.workflows.pinned.workflows": [],
+    "prettier.tabWidth": 4,
+    "[github-actions-workflow]": {},
+    "github-actions.use-enterprise": true,
+    "ruff.nativeServer": true,
+    "terminal.integrated.fontSize": 15,
+    "workbench.settings.applyToAllProfiles": ["terminal.integrated.fontFamily"],
+    "editor.fontFamily": "JetBrainsMono Nerd Font Mono",
+    "editor.fontSize": 14,
+    "explorer.confirmPasteNative": false
+}
