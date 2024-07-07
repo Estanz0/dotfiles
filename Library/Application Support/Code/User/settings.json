@@ -25,12 +25,20 @@
     },
     "vim.visualModeKeyBindingsNonRecursive": [
         {
-            "before": ["J"],
-            "commands": ["editor.action.moveLinesDownAction"]
+            "before": [
+                "J"
+            ],
+            "commands": [
+                "editor.action.moveLinesDownAction"
+            ]
         }, // moveLineDown
         {
-            "before": ["K"],
-            "commands": ["editor.action.moveLinesUpAction"]
+            "before": [
+                "K"
+            ],
+            "commands": [
+                "editor.action.moveLinesUpAction"
+            ]
         } // moveLineUp
     ],
     "github.copilot.editor.enableAutoCompletions": true,
@@ -41,10 +49,19 @@
     "prettier.tabWidth": 4,
     "[github-actions-workflow]": {},
     "github-actions.use-enterprise": true,
-    "ruff.nativeServer": true,
-    "terminal.integrated.fontSize": 15,
-    "workbench.settings.applyToAllProfiles": ["terminal.integrated.fontFamily"],
+    "terminal.integrated.fontSize": 13,
+    "workbench.settings.applyToAllProfiles": [
+        "terminal.integrated.fontFamily"
+    ],
     "editor.fontFamily": "JetBrainsMono Nerd Font Mono",
     "editor.fontSize": 14,
-    "explorer.confirmPasteNative": false
+    "explorer.confirmPasteNative": false,
+    "files.associations": {
+        "*.json": "json"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "ruff.configuration": "/Users/byronsmith/.config/ruff",
+    "ruff.nativeServer": true
 }
