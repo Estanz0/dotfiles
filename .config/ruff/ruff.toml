@@ -96,7 +96,9 @@ select = [
 ignore = ["TD003", "ANN101", "ANN102"]
 
 fixable = ["ALL"]
-unfixable = []
+unfixable = [
+    "F401", # Do not fixed unused imports
+]
 
 dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
 

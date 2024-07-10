@@ -49,12 +49,12 @@
     "prettier.tabWidth": 4,
     "[github-actions-workflow]": {},
     "github-actions.use-enterprise": true,
+    "editor.fontSize": 13,
     "terminal.integrated.fontSize": 13,
     "workbench.settings.applyToAllProfiles": [
         "terminal.integrated.fontFamily"
     ],
     "editor.fontFamily": "JetBrainsMono Nerd Font Mono",
-    "editor.fontSize": 14,
     "explorer.confirmPasteNative": false,
     "files.associations": {
         "*.json": "json"
@@ -62,6 +62,7 @@
     "[json]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
-    "ruff.configuration": "/Users/byronsmith/.config/ruff",
-    "ruff.nativeServer": true
+    "ruff.configuration": "",
+    "ruff.nativeServer": true,
+    "ruff.configurationPreference": "filesystemFirst"
 }

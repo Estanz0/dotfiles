@@ -1,3 +1,4 @@
+alias py3='python3'
 alias cat='bat'
 alias vi='nvim'
 alias type='type -a'
