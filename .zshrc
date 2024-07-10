@@ -24,3 +24,5 @@ for file in $HOME/dotfiles/.config/zsh/*.zsh; do
 done
 
 eval "$(starship init zsh)"
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

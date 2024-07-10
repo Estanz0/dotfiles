@@ -57,12 +57,17 @@
     "editor.fontFamily": "JetBrainsMono Nerd Font Mono",
     "explorer.confirmPasteNative": false,
     "files.associations": {
-        "*.json": "json"
+        "*.json": "json",
+        "*.lua": "lua"
     },
     "[json]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
     "ruff.configuration": "",
     "ruff.nativeServer": true,
-    "ruff.configurationPreference": "filesystemFirst"
+    "ruff.configurationPreference": "filesystemFirst",
+    "Lua.format.defaultConfig": {
+        "indent_style": "space",
+        "indent_size": "4"
+    }
 }
