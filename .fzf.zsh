@@ -5,11 +5,41 @@ if [[ ! "$PATH" == */usr/local/opt/fzf/bin* ]]; then
 fi
 
 source <(fzf --zsh)
-export FZF_DEFAULT_OPTS="--height 50% \
---border sharp \
---layout reverse \
---prompt '∷ ' \
---pointer ▶ \
---marker ⇒
---preview='cat {}'
---preview-window=right:60%:wrap"
+# export FZF_DEFAULT_OPTS="--height 50% \
+# --border sharp \
+# --layout reverse \
+# --prompt '∷ ' \
+# --pointer ▶ \
+# --marker ⇒
+# --preview='cat {}'
+# --preview-window=right:60%:wrap"
+
+export FZF_DEFAULT_OPTS="
+  --border sharp
+  --prompt '∷ ' 
+  --pointer ▶ 
+  --marker ✓
+  --layout=reverse
+  --info=inline
+  --height=70%
+  --multi
+  --preview '([[ -f {} ]] && (bat --style=numbers --color=always {} || cat {})) || ([[ -d {} ]] && (tree -C {} | less)) || echo {} 2> /dev/null | head -200'
+  --bind 'ctrl-p:toggle-preview'
+  --bind 'ctrl-a:select-all'
+  --bind 'ctrl-y:execute-silent(echo {+} | pbcopy)'
+  --color header:italic
+  --color=bg+:#313244,bg:#1e1e2e,spinner:#f5e0dc,hl:#f38ba8 
+  --color=fg:#cdd6f4,header:#f38ba8,info:#cba6f7,pointer:#f5e0dc
+  --color=marker:#f5e0dc,fg+:#cdd6f4,prompt:#cba6f7,hl+:#f38ba8
+"
+
+export FZF_CTRL_T_OPTS="
+  --bind 'ctrl-e:execute(echo {+} | xargs -o vim)'
+  --bind 'ctrl-v:execute(code {+})'
+  --header 'CTRL + Y to copy, CTRL + E to edit in vim, CTRL + V to open in VSCode'
+"
+
+export FZF_CTRL_R_OPTS="
+  --preview-window=:hidden
+  --header 'CTRL + Y to copy'
+"
