@@ -5,14 +5,8 @@ if [[ ! "$PATH" == */usr/local/opt/fzf/bin* ]]; then
 fi
 
 source <(fzf --zsh)
-# export FZF_DEFAULT_OPTS="--height 50% \
-# --border sharp \
-# --layout reverse \
-# --prompt '∷ ' \
-# --pointer ▶ \
-# --marker ⇒
-# --preview='cat {}'
-# --preview-window=right:60%:wrap"
+
+export FZF_CTRL_T_COMMAND='fd --hidden'
 
 export FZF_DEFAULT_OPTS="
   --border sharp
@@ -34,7 +28,7 @@ export FZF_DEFAULT_OPTS="
 "
 
 export FZF_CTRL_T_OPTS="
-  --bind 'ctrl-e:execute(echo {+} | xargs -o vim)'
+  --bind 'ctrl-e:execute(echo {+} | xargs -o vi)'
   --bind 'ctrl-v:execute(code {+})'
   --header 'CTRL + Y to copy, CTRL + E to edit in vim, CTRL + V to open in VSCode'
 "

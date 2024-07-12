@@ -6,8 +6,10 @@ brew install bat
 brew install stow
 brew install ruff
 brew install cmake
-brew install fzf
 brew install tree
+brew install fzf
+brew install fd
+
 
 # Neovim and dependencies
 brew install lua

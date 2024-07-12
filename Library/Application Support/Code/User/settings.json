@@ -48,7 +48,6 @@
     "github-actions.workflows.pinned.workflows": [],
     "prettier.tabWidth": 4,
     "[github-actions-workflow]": {},
-    "github-actions.use-enterprise": true,
     "editor.fontSize": 13,
     "terminal.integrated.fontSize": 13,
     "workbench.settings.applyToAllProfiles": [
@@ -58,16 +57,25 @@
     "explorer.confirmPasteNative": false,
     "files.associations": {
         "*.json": "json",
-        "*.lua": "lua"
+        "*.lua": "lua",
+        "*.yml": "yaml"
     },
     "[json]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
-    "ruff.configuration": "",
+    "ruff.configuration": "~/.config/ruff/ruff.toml",
     "ruff.nativeServer": true,
     "ruff.configurationPreference": "filesystemFirst",
     "Lua.format.defaultConfig": {
         "indent_style": "space",
         "indent_size": "4"
-    }
+    },
+    "prettier.documentSelectors": [
+        "**/*.{ts,js,yml,yaml}"
+    ],
+    "prettier.configPath": ".prettierrc",
+    "[yaml]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "ruff.lint.run": "onSave"
 }
