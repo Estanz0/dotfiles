@@ -1,16 +1,25 @@
-# Zsh
-brew install zsh-autosuggestions
-brew install zsh-syntax-highlighting
-brew install starship
-brew install bat
-brew install stow
-brew install ruff
-brew install cmake
-brew install tree
-brew install fzf
-brew install fd
+packages=(
+    # Zsh
+	'zsh-autosuggestions'
+	'zsh-syntax-highlighting'
+	'starship'
+	'bat'
+	'stow'
+	'ruff'
+	'tree'
+	'fzf'
+	'fd'
 
+    # Neovim and dependencies
+	'lua'
+	'luarocks'
 
-# Neovim and dependencies
-brew install lua
-brew install luarocks
+    # Other
+	'wget'
+	'lazygit'
+)
+
+# Install with Homebrew
+for package in "${packages[@]}"; do
+    brew install $package
+done
