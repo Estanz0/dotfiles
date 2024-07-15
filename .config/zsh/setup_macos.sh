@@ -9,6 +9,7 @@ packages=(
 	'tree'
 	'fzf'
 	'fd'
+	'tmux'
 
     # Neovim and dependencies
 	'lua'
