@@ -48,7 +48,7 @@
     "github-actions.workflows.pinned.workflows": [],
     "prettier.tabWidth": 4,
     "[github-actions-workflow]": {},
-    "editor.fontSize": 13,
+    "editor.fontSize": 12,
     "terminal.integrated.fontSize": 13,
     "workbench.settings.applyToAllProfiles": [
         "terminal.integrated.fontFamily"
@@ -63,7 +63,6 @@
     "[json]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
-    "ruff.configuration": "~/.config/ruff/ruff.toml",
     "ruff.nativeServer": true,
     "ruff.configurationPreference": "filesystemFirst",
     "Lua.format.defaultConfig": {
@@ -77,5 +76,6 @@
     "[yaml]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "ruff.lint.run": "onSave"
+    "ruff.lint.run": "onSave",
+    "ruff.trace.server": "verbose"
 }
