@@ -168,6 +168,10 @@ disabled = true
 [git_branch]
 symbol = " "
 
+[git_commit]
+disabled = false
+only_detached = false
+
 [golang]
 symbol = " "
 
