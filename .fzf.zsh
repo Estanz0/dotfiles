@@ -6,7 +6,7 @@ fi
 
 source <(fzf --zsh)
 
-export FZF_CTRL_T_COMMAND='fd --hidden'
+export FZF_DEFAULT_COMMAND='fd --type f --strip-cwd-prefix --hidden --follow --exclude .git'
 
 export FZF_DEFAULT_OPTS="
   --border sharp
@@ -21,7 +21,6 @@ export FZF_DEFAULT_OPTS="
   --bind 'ctrl-p:toggle-preview'
   --bind 'ctrl-a:select-all'
   --bind 'ctrl-y:execute-silent(echo {+} | pbcopy)'
-  --color header:italic
   --color=bg+:#313244,bg:#1e1e2e,spinner:#f5e0dc,hl:#f38ba8 
   --color=fg:#cdd6f4,header:#f38ba8,info:#cba6f7,pointer:#f5e0dc
   --color=marker:#f5e0dc,fg+:#cdd6f4,prompt:#cba6f7,hl+:#f38ba8
@@ -30,10 +29,12 @@ export FZF_DEFAULT_OPTS="
 export FZF_CTRL_T_OPTS="
   --bind 'ctrl-e:execute(echo {+} | xargs -o vi)'
   --bind 'ctrl-v:execute(code {+})'
+  --color header:italic
   --header 'CTRL + Y to copy, CTRL + E to edit in vim, CTRL + V to open in VSCode'
 "
 
 export FZF_CTRL_R_OPTS="
   --preview-window=:hidden
   --header 'CTRL + Y to copy'
+  --color header:italic
 "

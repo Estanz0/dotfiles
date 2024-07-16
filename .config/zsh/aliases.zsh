@@ -1,6 +1,9 @@
-alias py3='python3'
+# Overrides for Plugins
 alias cat='bat'
 alias vi='nvim'
+alias cd='z'
+
+# Frequently used commands
 alias type='type -a'
 alias mkdir='mkdir -p'
 alias agr='alias | grep'

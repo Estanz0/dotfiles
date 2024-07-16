@@ -25,6 +25,6 @@ done
 
 eval "$(starship init zsh)"
 
-BAT_THEME="Catppuccin Mocha"
+eval "$(zoxide init zsh)"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
