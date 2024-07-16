@@ -11,6 +11,11 @@ packages=(
 	'fd'
 	'tmux'
 
+	# MacOS
+	koekeishiya/formulae/yabai # yabai --start-service / yabai --restart-service
+	koekeishiya/formulae/skhd  # skhd --start-service / skhd --restart-service
+
+
     # Neovim and dependencies
 	'lua'
 	'luarocks'
