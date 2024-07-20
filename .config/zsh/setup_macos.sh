@@ -10,8 +10,11 @@ packages=(
 	'fzf'
 	'fd'
 	'tmux'
+	'watch'
+	'lsd'
 
 	# MacOS
+	iterm2
 	koekeishiya/formulae/yabai # yabai --start-service / yabai --restart-service
 	koekeishiya/formulae/skhd  # skhd --start-service / skhd --restart-service
 

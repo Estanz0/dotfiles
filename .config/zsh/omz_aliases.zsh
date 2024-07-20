@@ -207,11 +207,4 @@ alias gwta='git worktree add'
 alias gwtls='git worktree list'
 alias gwtmv='git worktree move'
 alias gwtrm='git worktree remove'
-alias l='ls -lah' 
-alias la='ls -lAh'
-alias ll='ls -lh'
-alias ls='ls -x --color=tty'
-alias lsa='ls -lah'
-alias md='mkdir -p'
-alias rd=rmdir
-alias which-command=whence
+
