@@ -1,5 +1,5 @@
 {
-    "workbench.colorTheme": "Catppuccin Mocha",
+    "workbench.colorTheme": "Catppuccin Macchiato",
     "explorer.confirmDragAndDrop": false,
     "azureFunctions.showPythonVenvWarning": false,
     "terminal.integrated.defaultProfile.osx": "zsh",
@@ -77,5 +77,6 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "ruff.lint.run": "onSave",
-    "ruff.trace.server": "verbose"
+    "ruff.trace.server": "verbose",
+    "snowflake.connectionsConfigFile": "/Users/byronsmith/.snowflake/connections.toml",
 }

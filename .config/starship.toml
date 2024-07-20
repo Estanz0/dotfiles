@@ -106,7 +106,7 @@ $cmd_duration
 symbol = "  "
 
 [azure]
-disabled = false
+disabled = true
 
 [battery]
 disabled = true
