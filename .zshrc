@@ -2,6 +2,8 @@ autoload -Uz compinit && compinit
 
 unsetopt beep
 
+ZLE_RPROMPT_INDENT=0
+
 HISTFILE=$HOME/.zsh_history
 HISTSIZE=1000
 SAVEHIST=$HISTSIZE
@@ -28,3 +30,5 @@ eval "$(starship init zsh)"
 eval "$(zoxide init zsh)"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+export LS_COLORS="$(vivid generate catppuccin-mocha)"

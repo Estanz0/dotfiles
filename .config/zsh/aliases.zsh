@@ -15,5 +15,5 @@ alias cx='chmod +x'
 
 alias l='ls -l'
 alias la='ls -a'
-alias lla='ls -la'
+alias lsa='ls -la'
 alias lt='ls --tree'

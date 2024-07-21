@@ -12,6 +12,7 @@ packages=(
 	'tmux'
 	'watch'
 	'lsd'
+	'vivid'
 
 	# MacOS
 	iterm2
