@@ -49,7 +49,7 @@
     "prettier.tabWidth": 4,
     "[github-actions-workflow]": {},
     "editor.fontSize": 12,
-    "terminal.integrated.fontSize": 13,
+    "terminal.integrated.fontSize": 12,
     "workbench.settings.applyToAllProfiles": [
         "terminal.integrated.fontFamily"
     ],
@@ -58,7 +58,8 @@
     "files.associations": {
         "*.json": "json",
         "*.lua": "lua",
-        "*.yml": "yaml"
+        "*.yml": "yaml",
+        "*.psql": "sql"
     },
     "[json]": {
         "editor.defaultFormatter": "vscode.json-language-features"
@@ -70,7 +71,8 @@
         "indent_size": "4"
     },
     "prettier.documentSelectors": [
-        "**/*.{ts,js,yml,yaml}"
+        "**/*.{ts,js,yml,yaml}",
+        "**/*.{html,css}"
     ],
     "prettier.configPath": ".prettierrc",
     "[yaml]": {
@@ -79,4 +81,14 @@
     "ruff.lint.run": "onSave",
     "ruff.trace.server": "verbose",
     "snowflake.connectionsConfigFile": "/Users/byronsmith/.snowflake/connections.toml",
+    "[snowflake-sql]": {},
+    "pgsql.connections": [
+        {
+            "server": "{{put-server-name-here}}",
+            "database": "{{put-database-name-here}}",
+            "user": "{{put-username-here}}",
+            "password": "{{put-password-here}}"
+        }
+    ],
+    "editor.minimap.enabled": false,
 }
