@@ -17,3 +17,6 @@ alias l='ls -l'
 alias la='ls -a'
 alias lsa='ls -la'
 alias lt='ls --tree'
+
+# Pip
+alias pip='noglob pip'
