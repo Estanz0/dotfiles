@@ -39,7 +39,17 @@ exec zsh                  # pick up the new vars
 
 ## Codex
 
-Run `stow . --no-folding` to install the Codex configuration alongside Claude Code.
+Run `stow . --no-folding` to install shared dotfiles alongside Claude Code.
+On `Byrons-Mac-mini`, also install the host package:
+
+```sh
+stow -d hosts -t "$HOME" --no-folding "$(hostname)"
+```
+
+The Mac's Codex config lives in `hosts/Byrons-Mac-mini/.codex/config.toml`,
+linked to `~/.codex/config.toml`. Keeping it outside the repo-root `.codex/`
+prevents Codex from also loading it as project config and warning about
+user-only keys such as `notify`.
 
 - `AGENTS.md` links to this repository's `CLAUDE.md` and is excluded from Stow.
 - Skillfold generates `~/.codex/AGENTS.md` with shared rules, matching host rules, and Codex compatibility instructions. Codex does not need to read the Claude rules directory again. The compatibility rule also covers project `CLAUDE.md` files where there is no `AGENTS.md`.
