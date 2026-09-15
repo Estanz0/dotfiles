@@ -1,3 +1,6 @@
+approval_policy = "never"
+sandbox_mode = "danger-full-access"
+
 model = "gpt-6-astra"
 model_reasoning_effort = "medium"
 personality = "pragmatic"
@@ -14,6 +17,15 @@ trust_level = "trusted"
 trust_level = "trusted"
 
 [projects."/Users/byron/dotfiles"]
+trust_level = "trusted"
+
+[projects."/Users/byron/repos"]
+trust_level = "trusted"
+
+[projects."/Users/byron/repos/management"]
+trust_level = "trusted"
+
+[projects."/Users/byron/repos/shorewash"]
 trust_level = "trusted"
 
 [mcp_servers.context7]
@@ -50,7 +62,7 @@ enabled = false
 
 [tui.model_availability_nux]
 "gpt-5.5" = 2
-gpt-6-astra = 2
+gpt-6-astra = 4
 
 [desktop]
 followUpQueueMode = "steer"
@@ -95,3 +107,10 @@ enabled = true
 
 [plugins."template-creator@openai-primary-runtime"]
 enabled = true
+
+[plugins."chrome@openai-bundled"]
+enabled = true
+
+[[skills.config]]
+path = "/Users/byron/.codex/skills/.system/review-agent/SKILL.md"
+enabled = false
