@@ -101,22 +101,22 @@ rules:
     integrity: sha256-MFZaIUUMuAvuyvegdseum0aR6TY4/XOKPF/TP6cAMek=
   doppler:
     source: github:byronxlg/skills/rules/doppler.md
-    resolved: github:byronxlg/skills/rules/doppler.md@64c3febed8b4e61f7026f42e554242aa952cf7fe
-    integrity: sha256-y2taXQI66u6WfU6FNo2HcTJNHsnZrSx/OgVvogkjvBs=
+    resolved: github:byronxlg/skills/rules/doppler.md@92e9e7600ec457527eb6208ccd0ed0225f544d59
+    integrity: sha256-7FpBo6BtpgfPx/ZTH81xKVRiVf6uos76TREwazu0GGA=
   doppler-secrets:
     hosts:
       - Byrons-Mac-mini
     source: github:byronxlg/skills/rules/hosts/Byrons-Mac-mini/doppler-secrets.md
-    resolved: github:byronxlg/skills/rules/hosts/Byrons-Mac-mini/doppler-secrets.md@64c3febed8b4e61f7026f42e554242aa952cf7fe
-    integrity: sha256-XhkCJ2EBNG95ql2x79nSJO79b0Ye0csy/HTclPkDj0M=
+    resolved: github:byronxlg/skills/rules/hosts/Byrons-Mac-mini/doppler-secrets.md@92e9e7600ec457527eb6208ccd0ed0225f544d59
+    integrity: sha256-5sX9YXQkokgBioLD89S+3uNSfVldkheFuU5OXocQI/M=
   dotfiles-workflow:
     source: github:byronxlg/skills/rules/dotfiles-workflow.md
     resolved: github:byronxlg/skills/rules/dotfiles-workflow.md@64c3febed8b4e61f7026f42e554242aa952cf7fe
     integrity: sha256-ryXAEc2sAL77mAyVrdJJ30K5SEi/C0GpPPQpj2Msml8=
   infra-writes:
     source: github:byronxlg/skills/rules/infra-writes.md
-    resolved: github:byronxlg/skills/rules/infra-writes.md@64c3febed8b4e61f7026f42e554242aa952cf7fe
-    integrity: sha256-y3Fd6qfbnZnpCZKL7WUS4m5VIhO003agop4GYV6Ap+8=
+    resolved: github:byronxlg/skills/rules/infra-writes.md@92e9e7600ec457527eb6208ccd0ed0225f544d59
+    integrity: sha256-qWpiuy4+3xJThhPKk5gAvTPnhwhfphCyYa5wx5NU+E0=
   kubectl-context:
     source: github:byronxlg/skills/rules/kubectl-context.md
     resolved: github:byronxlg/skills/rules/kubectl-context.md@64c3febed8b4e61f7026f42e554242aa952cf7fe
