@@ -111,8 +111,8 @@ rules:
     integrity: sha256-5sX9YXQkokgBioLD89S+3uNSfVldkheFuU5OXocQI/M=
   dotfiles-workflow:
     source: github:byronxlg/skills/rules/dotfiles-workflow.md
-    resolved: github:byronxlg/skills/rules/dotfiles-workflow.md@64c3febed8b4e61f7026f42e554242aa952cf7fe
-    integrity: sha256-ryXAEc2sAL77mAyVrdJJ30K5SEi/C0GpPPQpj2Msml8=
+    resolved: github:byronxlg/skills/rules/dotfiles-workflow.md@c30ced0f1d551b62e153ebc8f810b4cc6df8758e
+    integrity: sha256-JC4zsJ24zOSL80Tltoshu8zJFqzKxaVekbbhtWjotjc=
   infra-writes:
     source: github:byronxlg/skills/rules/infra-writes.md
     resolved: github:byronxlg/skills/rules/infra-writes.md@92e9e7600ec457527eb6208ccd0ed0225f544d59
@@ -121,16 +121,12 @@ rules:
     source: github:byronxlg/skills/rules/kubectl-context.md
     resolved: github:byronxlg/skills/rules/kubectl-context.md@64c3febed8b4e61f7026f42e554242aa952cf7fe
     integrity: sha256-MHs5K/ezhxXKEGlESS22wGgkuFb+9AwNct7ZJ5lrzxo=
-  skills:
-    source: github:byronxlg/skills/rules/skills.md
-    resolved: github:byronxlg/skills/rules/skills.md@64c3febed8b4e61f7026f42e554242aa952cf7fe
-    integrity: sha256-MggrRRdx5nkxElfI83TQly2UglNpOq8JSmipWZVVkX4=
   telegram:
     hosts:
       - Byrons-Mac-mini
     source: github:byronxlg/skills/rules/hosts/Byrons-Mac-mini/telegram.md
-    resolved: github:byronxlg/skills/rules/hosts/Byrons-Mac-mini/telegram.md@64c3febed8b4e61f7026f42e554242aa952cf7fe
-    integrity: sha256-cCfQREEgxZNt8QYGmdfrMiReTiLMkVSR4tkqNyYK7Tk=
+    resolved: github:byronxlg/skills/rules/hosts/Byrons-Mac-mini/telegram.md@c30ced0f1d551b62e153ebc8f810b4cc6df8758e
+    integrity: sha256-53/1qUiVGBkZKWHxpdelJ5WXOWoA5J4AaVrLkprftRw=
   tool-preferences:
     source: github:byronxlg/skills/rules/tool-preferences.md
     resolved: github:byronxlg/skills/rules/tool-preferences.md@64c3febed8b4e61f7026f42e554242aa952cf7fe
